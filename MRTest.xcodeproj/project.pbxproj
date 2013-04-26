@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A04D1AA172A7631006C6B27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04D1A9172A7631006C6B27 /* UIKit.framework */; };
+		2A04D1AC172A7631006C6B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04D1AB172A7631006C6B27 /* Foundation.framework */; };
+		2A04D1AE172A7631006C6B27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04D1AD172A7631006C6B27 /* CoreGraphics.framework */; };
+		2A04D1B0172A7631006C6B27 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04D1AF172A7631006C6B27 /* CoreData.framework */; };
+		2A04D1B6172A7631006C6B27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A04D1B4172A7631006C6B27 /* InfoPlist.strings */; };
+		2A04D1B8172A7631006C6B27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D1B7172A7631006C6B27 /* main.m */; };
+		2A04D1BC172A7631006C6B27 /* MRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D1BB172A7631006C6B27 /* MRTAppDelegate.m */; };
+		2A04D1BE172A7631006C6B27 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A04D1BD172A7631006C6B27 /* Default.png */; };
+		2A04D1C0172A7631006C6B27 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A04D1BF172A7631006C6B27 /* Default@2x.png */; };
+		2A04D1C2172A7631006C6B27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A04D1C1172A7631006C6B27 /* Default-568h@2x.png */; };
+		2A04D1C5172A7631006C6B27 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A04D1C3172A7631006C6B27 /* MainStoryboard.storyboard */; };
+		2A04D1C8172A7631006C6B27 /* MRTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D1C6172A7631006C6B27 /* MRTest.xcdatamodeld */; };
+		2A04D1CB172A7631006C6B27 /* MRTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D1CA172A7631006C6B27 /* MRTMasterViewController.m */; };
+		2A04D1CE172A7631006C6B27 /* MRTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D1CD172A7631006C6B27 /* MRTDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A04D1A6172A7631006C6B27 /* MRTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A04D1A9172A7631006C6B27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A04D1AB172A7631006C6B27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A04D1AD172A7631006C6B27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A04D1AF172A7631006C6B27 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2A04D1B3172A7631006C6B27 /* MRTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRTest-Info.plist"; sourceTree = "<group>"; };
+		2A04D1B5172A7631006C6B27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A04D1B7172A7631006C6B27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A04D1B9172A7631006C6B27 /* MRTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRTest-Prefix.pch"; sourceTree = "<group>"; };
+		2A04D1BA172A7631006C6B27 /* MRTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRTAppDelegate.h; sourceTree = "<group>"; };
+		2A04D1BB172A7631006C6B27 /* MRTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRTAppDelegate.m; sourceTree = "<group>"; };
+		2A04D1BD172A7631006C6B27 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2A04D1BF172A7631006C6B27 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2A04D1C1172A7631006C6B27 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2A04D1C4172A7631006C6B27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2A04D1C7172A7631006C6B27 /* MRTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MRTest.xcdatamodel; sourceTree = "<group>"; };
+		2A04D1C9172A7631006C6B27 /* MRTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRTMasterViewController.h; sourceTree = "<group>"; };
+		2A04D1CA172A7631006C6B27 /* MRTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRTMasterViewController.m; sourceTree = "<group>"; };
+		2A04D1CC172A7631006C6B27 /* MRTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRTDetailViewController.h; sourceTree = "<group>"; };
+		2A04D1CD172A7631006C6B27 /* MRTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRTDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A04D1A3172A7631006C6B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A04D1AA172A7631006C6B27 /* UIKit.framework in Frameworks */,
+				2A04D1AC172A7631006C6B27 /* Foundation.framework in Frameworks */,
+				2A04D1AE172A7631006C6B27 /* CoreGraphics.framework in Frameworks */,
+				2A04D1B0172A7631006C6B27 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A04D19D172A7631006C6B27 = {
+			isa = PBXGroup;
+			children = (
+				2A04D1B1172A7631006C6B27 /* MRTest */,
+				2A04D1A8172A7631006C6B27 /* Frameworks */,
+				2A04D1A7172A7631006C6B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A04D1A7172A7631006C6B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D1A6172A7631006C6B27 /* MRTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A04D1A8172A7631006C6B27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D1A9172A7631006C6B27 /* UIKit.framework */,
+				2A04D1AB172A7631006C6B27 /* Foundation.framework */,
+				2A04D1AD172A7631006C6B27 /* CoreGraphics.framework */,
+				2A04D1AF172A7631006C6B27 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A04D1B1172A7631006C6B27 /* MRTest */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D1BA172A7631006C6B27 /* MRTAppDelegate.h */,
+				2A04D1BB172A7631006C6B27 /* MRTAppDelegate.m */,
+				2A04D1C3172A7631006C6B27 /* MainStoryboard.storyboard */,
+				2A04D1C9172A7631006C6B27 /* MRTMasterViewController.h */,
+				2A04D1CA172A7631006C6B27 /* MRTMasterViewController.m */,
+				2A04D1CC172A7631006C6B27 /* MRTDetailViewController.h */,
+				2A04D1CD172A7631006C6B27 /* MRTDetailViewController.m */,
+				2A04D1C6172A7631006C6B27 /* MRTest.xcdatamodeld */,
+				2A04D1B2172A7631006C6B27 /* Supporting Files */,
+			);
+			path = MRTest;
+			sourceTree = "<group>";
+		};
+		2A04D1B2172A7631006C6B27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D1B3172A7631006C6B27 /* MRTest-Info.plist */,
+				2A04D1B4172A7631006C6B27 /* InfoPlist.strings */,
+				2A04D1B7172A7631006C6B27 /* main.m */,
+				2A04D1B9172A7631006C6B27 /* MRTest-Prefix.pch */,
+				2A04D1BD172A7631006C6B27 /* Default.png */,
+				2A04D1BF172A7631006C6B27 /* Default@2x.png */,
+				2A04D1C1172A7631006C6B27 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A04D1A5172A7631006C6B27 /* MRTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A04D1D1172A7631006C6B27 /* Build configuration list for PBXNativeTarget "MRTest" */;
+			buildPhases = (
+				2A04D1A2172A7631006C6B27 /* Sources */,
+				2A04D1A3172A7631006C6B27 /* Frameworks */,
+				2A04D1A4172A7631006C6B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRTest;
+			productName = MRTest;
+			productReference = 2A04D1A6172A7631006C6B27 /* MRTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A04D19E172A7631006C6B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MRT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ryo Sakikawa";
+			};
+			buildConfigurationList = 2A04D1A1172A7631006C6B27 /* Build configuration list for PBXProject "MRTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A04D19D172A7631006C6B27;
+			productRefGroup = 2A04D1A7172A7631006C6B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A04D1A5172A7631006C6B27 /* MRTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A04D1A4172A7631006C6B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A04D1B6172A7631006C6B27 /* InfoPlist.strings in Resources */,
+				2A04D1BE172A7631006C6B27 /* Default.png in Resources */,
+				2A04D1C0172A7631006C6B27 /* Default@2x.png in Resources */,
+				2A04D1C2172A7631006C6B27 /* Default-568h@2x.png in Resources */,
+				2A04D1C5172A7631006C6B27 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A04D1A2172A7631006C6B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A04D1B8172A7631006C6B27 /* main.m in Sources */,
+				2A04D1BC172A7631006C6B27 /* MRTAppDelegate.m in Sources */,
+				2A04D1C8172A7631006C6B27 /* MRTest.xcdatamodeld in Sources */,
+				2A04D1CB172A7631006C6B27 /* MRTMasterViewController.m in Sources */,
+				2A04D1CE172A7631006C6B27 /* MRTDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A04D1B4172A7631006C6B27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A04D1B5172A7631006C6B27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A04D1C3172A7631006C6B27 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A04D1C4172A7631006C6B27 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A04D1CF172A7631006C6B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A04D1D0172A7631006C6B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A04D1D2172A7631006C6B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRTest/MRTest-Prefix.pch";
+				INFOPLIST_FILE = "MRTest/MRTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A04D1D3172A7631006C6B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRTest/MRTest-Prefix.pch";
+				INFOPLIST_FILE = "MRTest/MRTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A04D1A1172A7631006C6B27 /* Build configuration list for PBXProject "MRTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A04D1CF172A7631006C6B27 /* Debug */,
+				2A04D1D0172A7631006C6B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A04D1D1172A7631006C6B27 /* Build configuration list for PBXNativeTarget "MRTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A04D1D2172A7631006C6B27 /* Debug */,
+				2A04D1D3172A7631006C6B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A04D1C6172A7631006C6B27 /* MRTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A04D1C7172A7631006C6B27 /* MRTest.xcdatamodel */,
+			);
+			currentVersion = 2A04D1C7172A7631006C6B27 /* MRTest.xcdatamodel */;
+			path = MRTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A04D19E172A7631006C6B27 /* Project object */;
+}
